@@ -13,6 +13,12 @@ provider "azurerm" {
 }
 
 
+resource "azurerm_resource_group" "rg" {
+  name     = "demorg"
+  location = "japanwest"
+}
+
+
 resource "azurerm_virtual_network" "vnet" {
   name                = "demovnet"
   location            = azurerm_resource_group.rg.location
