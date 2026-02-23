@@ -23,6 +23,11 @@ resource "azurerm_resource_group" "rg2" {
   location = "japanwest"
 }
 
+resource "azurerm_resource_group" "rg3" {
+  name     = "demorg3"
+  location = "japanwest"
+}
+
 
 resource "azurerm_virtual_network" "vnet" {
   name                = "demovnet"
