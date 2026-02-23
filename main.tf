@@ -18,11 +18,6 @@ resource "azurerm_resource_group" "rg" {
   location = "japanwest"
 }
 
-resource "azurerm_resource_group" "rg1" {
-  name     = "demorg1"
-  location = "japanwest"
-}
-
 resource "azurerm_resource_group" "rg2" {
   name     = "demorg2"
   location = "japanwest"
