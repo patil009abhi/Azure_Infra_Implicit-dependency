@@ -1,0 +1,2 @@
+- name: Check Azure Login
+   run: az account show
